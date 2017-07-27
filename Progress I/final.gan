@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Final Progress" company="" webLink="http://" view-date="2017-10-27" view-index="0" gantt-divider-location="414" resource-divider-location="300" version="2.8.5" locale="en_US">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="275" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="70" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Final Progress" meeting="false" start="2017-10-30" duration="24" complete="0" expand="true">
+            <task id="5" name="Test Plan" meeting="false" start="2017-10-30" duration="4" complete="0" expand="true"/>
+            <task id="10" name="Documentation" meeting="false" start="2017-11-06" duration="8" complete="0" expand="true">
+                <task id="11" name="Review development plan" meeting="false" start="2017-11-06" duration="1" complete="0" expand="true"/>
+                <task id="12" name="Review quality plan" meeting="false" start="2017-11-08" duration="1" complete="0" expand="true"/>
+                <task id="13" name="Review requirement specification" meeting="false" start="2017-11-10" duration="1" complete="0" expand="true"/>
+                <task id="14" name="Review software design" meeting="false" start="2017-11-13" duration="1" complete="0" expand="true"/>
+                <task id="15" name="Review traceability record" meeting="false" start="2017-11-14" duration="1" complete="0" expand="true"/>
+                <task id="16" name="Integration all document" meeting="false" start="2017-11-15" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="8" name="Implementation software deployment" meeting="false" start="2017-11-16" duration="3" complete="0" expand="true"/>
+            <task id="9" name="Check for verification" meeting="false" start="2017-11-21" duration="4" complete="0" expand="true"/>
+            <task id="4" name="Review and Configuration Final Progress" meeting="false" start="2017-11-27" duration="2" complete="0" expand="true"/>
+            <task id="18" name="Final Progress Report Submission" meeting="false" start="2017-11-29" duration="1" complete="0" expand="true"/>
+            <task id="17" name="Final Progress Report Presentation" meeting="false" start="2017-11-30" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
